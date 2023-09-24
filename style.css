@@ -16,3 +16,11 @@ p {
 .blue-text {
     color: rgb(0, 85, 255);
 }
+
+@media screen and (max-width: 600px) {
+  p {
+    padding-left: 15px; /* Adjust padding for smaller screens */
+    padding-right: 15px; /* Adjust padding for smaller screens */
+    font-size: large; /* Adjust font size for smaller screens */
+  }
+}
