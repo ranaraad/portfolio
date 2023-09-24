@@ -9,12 +9,13 @@ body {
 p {
   padding-left: 25%; /* Add padding to the left side */
   padding-right: 25%; /* Add padding to the right side */
+  padding-bottom: 5%;
   font-size: x-large;
   text-align: justify;
 }
 
 .blue-text {
-    color: rgb(0, 85, 255);
+  color: rgb(0, 85, 255);
 }
 
 @media screen and (max-width: 600px) {
@@ -24,4 +25,34 @@ p {
     font-size: x-large; /* Adjust font size for smaller screens */
     text-align: justify;
   }
+}
+
+/* styles.css */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 20px;
+}
+
+.social-button {
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.social-button i {
+  font-size: 36px;
+}
+
+.social-button i:hover {
+  color: rgb(0, 85, 255);
+}
+
+a {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the text color from its parent element */
+}
+
+h1 {
+  padding-top: 5%;
 }
