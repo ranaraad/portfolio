@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+/* Apply padding to a specific HTML element by its tag name */
+p {
+  padding-left: 25%; /* Add padding to the left side */
+  padding-right: 25%; /* Add padding to the right side */
+  font-size: x-large;
+  text-align: justify;
+}
+
+.blue-text {
+    color: rgb(0, 85, 255);
+}
