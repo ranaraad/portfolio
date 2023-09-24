@@ -21,6 +21,7 @@ p {
   p {
     padding-left: 15px; /* Adjust padding for smaller screens */
     padding-right: 15px; /* Adjust padding for smaller screens */
-    font-size: large; /* Adjust font size for smaller screens */
+    font-size: x-large; /* Adjust font size for smaller screens */
+    text-align: justify;
   }
 }
